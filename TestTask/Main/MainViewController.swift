@@ -130,15 +130,15 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         
         switch tabBar.selectedItem?.tag {
         case 0:
-            return "Most Emailed"
+            return ContentType.mostEmailed.rawValue
         case 1:
-            return "Most Shared"
+            return ContentType.mostShared.rawValue
         case 2:
-            return "Most Viewed"
+            return ContentType.mostViewed.rawValue
         case 3:
             return "Favorites"
         default:
-            return "Most mailed"
+            return ContentType.mostEmailed.rawValue
         }
     }
     
