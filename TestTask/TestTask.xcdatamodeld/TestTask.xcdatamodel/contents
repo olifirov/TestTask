@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="21G115" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StoredArticle" representedClassName="StoredArticle" syncable="YES">
+        <attribute name="abstract" optional="YES" attributeType="String"/>
+        <attribute name="adxKeywords" optional="YES" attributeType="String"/>
+        <attribute name="byline" optional="YES" attributeType="String"/>
+        <attribute name="desFacet" optional="YES" attributeType="String"/>
+        <attribute name="geoFacet" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="orgFacet" optional="YES" attributeType="String"/>
+        <attribute name="perFacet" optional="YES" attributeType="String"/>
+        <attribute name="publishedDate" optional="YES" attributeType="String"/>
+        <attribute name="section" optional="YES" attributeType="String"/>
+        <attribute name="smallImage" optional="YES" attributeType="Binary"/>
+        <attribute name="source" optional="YES" attributeType="String"/>
+        <attribute name="subsection" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="updatedDate" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+</model>
